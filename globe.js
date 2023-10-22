@@ -50,6 +50,225 @@ polygonSeries.mapPolygons.template.events.on('hit', function (event) {
     url = countryURLs[countryId]
   }
 
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
+  if (countryId === 'IT') {
+    url =
+      'https://www.youtube.com/results?search_query=buyer+or+seller+choose+page+html' // Sostituisci con l'URL desiderato per l'Italia
+  } else {
+    url = countryURLs[countryId]
+  }
+
   if (url) {
     window.location.href = url
   }
