@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=League+Spartan:wght@400;500;600;700;800;900&display=swap');
 
 *,
 *::after,
@@ -17,7 +17,7 @@ body {
 body {
   display: grid;
   place-items: center;
-  font-family: "League Spartan", system-ui, sans-serif;
+  font-family: 'League Spartan', system-ui, sans-serif;
   font-size: 1.1rem;
   line-height: 1.2;
   background-color: #212121;
@@ -144,8 +144,8 @@ ul {
 }
 
 .overlay .card {
-  background-color: white,0.15;
-  border-color: :-moz-only-whitespace;
+  background-color: white, 0.15;
+  /* border-color: ::-moz-only-whitespace; */
   box-shadow: 0 0 0 1px inset white;
 }
 
