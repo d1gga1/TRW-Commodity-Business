@@ -7,10 +7,8 @@ function hideLoading() {
 }
 
 
-const overlay = document.getElementsByClassName("container__overlay");
+const overlay = document.getElementById("bg-animation");
 const signUpBtn = document.getElementById("bg-animation");
-const container = document.getElementsByClassName("container__form");
-const panel = document.getElementsByClassName("overlay__panel");
 
 signUpBtn.addEventListener("click", function() {
     overlay.style.width = "100vw";
