@@ -48,8 +48,10 @@ ul {
 
 .cards__inner {
   display: flex;
+  flex-direction: column;
   flex-wrap: wrap;
   gap: 2.5em;
+  transform: scale(0.7);
 }
 
 .card {
