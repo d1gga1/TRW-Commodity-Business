@@ -20,7 +20,7 @@ body {
   font-family: 'League Spartan', system-ui, sans-serif;
   font-size: 1.1rem;
   line-height: 1.2;
-  background-color: #212121;
+  background-color: black;
   color: #ddd;
 }
 
@@ -37,7 +37,7 @@ ul {
   font-weight: 600;
   font-size: 2.25em;
   margin-bottom: 0.75em;
-  margin-top: 0px;
+  margin-top: 10px;
   text-align: center;
   color: #eceff1;
 }
@@ -48,11 +48,13 @@ ul {
 
 .cards__inner {
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   flex-wrap: wrap;
   gap: 2.5em;
-  transform: scale(0.7);
+  
 }
+
+
 
 .card {
   --flow-space: 0.5em;
@@ -108,9 +110,7 @@ ul {
   font-weight: 700;
 }
 
-.flow > * + * {
-  margin-top: var(--flow-space, 1.25em);
-}
+
 
 .cta {
   display: block;
@@ -168,4 +168,17 @@ ul {
 :not(.overlay) > .card:hover {
   --lightness: 0%;
   background: hsla(var(--hsl), 0.1);
+}
+
+
+h1{
+  color: white;
+	text-align: center;
+	position: relative;
+	top: 25%;
+	z-index: 101;
+}
+
+h2{
+  margin-bottom: 0.5rem;
 }
