@@ -66,3 +66,20 @@ chart.seriesContainer.events.on('down', function () {
     animation.stop()
   }
 })
+
+
+// Create a variable to store the selected country's ID
+var selectedCountryID = null;
+
+// Event listener for country clicks
+polygonSeries.mapPolygons.template.events.on("hit", function (event) {
+  // Get the ID of the clicked country
+  selectedCountryID = event.target.dataItem.id;
+});
+
+function showElementsForCountry(countryID) {
+  var elements = document.querySelectorAll
+}
+
+// Call the function when a country is selected
+showElementsForCountry(selectedCountryID);

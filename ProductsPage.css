@@ -143,6 +143,7 @@ select {
 .table-row {
     line-height: 48px;
     color: #111;
+    display: none;
 }
 .table-row:nth-child(even) {
     background-color: #f8f8f8;
@@ -155,6 +156,7 @@ select {
     font-size: 14px;
     white-space: nowrap;
 }
+
 .no-results {
     padding: 40px 0;
     text-align: center;
@@ -162,4 +164,8 @@ select {
 .no-results-message {
     font-size: 22px;
     color: #929292;
+}
+
+.visible {
+    display: table-row;
 }
