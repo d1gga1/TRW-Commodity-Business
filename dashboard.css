@@ -10,11 +10,11 @@
   --app-bg-dark: #111;
   --app-bg-before: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
   --app-bg-before-2: linear-gradient(0deg, rgba(0,0,0,0) 0%, rgba(0,0,0,1) 100%);
-  --app-bg-light: #333;
+  --app-bg-light: #000;
   --app-logo: #fff;
   --nav-link: #888;
   --nav-link-active: #fff;
-  --list-item-hover: #0c1635;
+  --list-item-hover: rgb(5,5,5);
   --main-color: #fff;
   --secondary-color: #5e6a81;
   --color-light: rgba(52, 129, 210, .2);
@@ -32,7 +32,7 @@
 body {
   height: 100vh;
   width: 100%;
-  overflow: hidden;
+  /* overflow: hidden; */
   display: flex;
   justify-content: center;
   font-family: 'Poppins', sans-serif;
@@ -50,6 +50,7 @@ body {
 
 .app-left {
   flex-basis: 240px;
+  min-width: 200px;
   background-color: var(--app-bg-dark);
   height: 100%;
   overflow-y: auto;
@@ -70,7 +71,7 @@ body {
   overflow-x: hidden;
   background-color: var(--app-bg-light);
   padding: 24px;
-  background: radial-gradient(circle, rgba(0,0,0,1) 1%, rgba(0,0,0,1) 100%);
+  /* background: radial-gradient(circle, rgba(0,0,0,1) 1%, rgba(0,0,0,1) 100%); */
 }
 
 .app-right {

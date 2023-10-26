@@ -1,0 +1,174 @@
+@import url(dashboard.css);
+
+:root {
+    --text-color: #ddd;
+    --save-btn-color: #FF8811; 
+    --delete-btn-color: #C41E3D;
+}
+
+
+
+
+.header {
+    color: var(--text-color);
+    font-family: inherit;
+    margin-bottom: 50px;
+}
+
+.pfp-icon {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    background-color: #fff;
+    padding: 5px;
+}
+
+.email {
+    position: relative;
+    color: var(--text-color);
+    float: right;
+    margin-right: 50px;
+}
+
+.email a{
+    text-decoration: none;
+    color: var(--text-color);
+    font-weight: 500;
+}
+
+.subheader {
+    color: var(--text-color);
+    font-size: 1.3em;
+}
+
+.input-headers {
+    color: var(--text-color);
+}
+
+p {
+    color: var(--text-color);
+    font-size: 14px;
+    max-width: 900px;
+}
+
+h6 {
+    color: var(--text-color);
+    font-size: 16px;
+}
+
+ul li {
+    color: var(--text-color);
+    font-size: 14px;
+    list-style: circle;
+}
+
+.verify-btn {
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bolder;
+    color: var(--text-color);
+    background-color: var(--save-btn-color);
+    border: none;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.p-input {
+    width: 400px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.personal-inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.personal-inputs div {
+    margin-right: 50px;
+}
+
+.personal-inputs div:last-child{
+    margin-right: 0;
+}
+
+.biography {
+    display: flex;
+    flex-direction: column;
+    margin-right: 0;
+    margin-bottom: 20px;
+}
+
+#biography {
+    padding: 10px;
+    width: 850px;
+    border-radius: 5px;
+}
+
+.save-btn {
+    background-color: var(--save-btn-color);
+    padding: 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    color: #ddd;
+    font-weight: bolder;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.pfp {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.pfp button {
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    align-self: center;
+    margin-left: 30px;
+    background-color: var(--save-btn-color);
+    font-weight: bolder;
+    color: var(--text-color);
+}
+
+.social-inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+    
+}
+
+.s-input {
+    padding: 5px;
+    border:none;
+    border-radius: 5px;
+    margin-right: 20px;
+    width: 300px;
+}
+
+.pw-inputs {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.delete-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--text-color);
+    font-weight: bold;
+    padding: 20px;
+    background-color: var(--delete-btn-color);
+    border: none;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
