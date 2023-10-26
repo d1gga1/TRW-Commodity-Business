@@ -39,7 +39,7 @@ polygonTemplate.fill = am4core.color('white')
 polygonTemplate.stroke = am4core.color('#000033')
 polygonTemplate.strokeWidth = 0.5
 polygonTemplate.cursorOverStyle = am4core.MouseCursorStyle.pointer;
-polygonTemplate.url = "sellers.html";
+polygonTemplate.url = "ProductsPage.html";
 polygonTemplate.urlTarget = "_blank";
 
 var graticuleSeries = chart.series.push(new am4maps.GraticuleSeries())
