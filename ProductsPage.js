@@ -208,3 +208,5 @@ $(function () {
         : this.$noResults.addClass('hidden');
     }
   }
+
+ 
