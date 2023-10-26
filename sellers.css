@@ -30,7 +30,7 @@ html {
 }
 
 .seller-list {
-    width: 80%;
+    width: 100%;
 
 }
 
@@ -51,7 +51,7 @@ section {
     align-items: center;
     justify-content: space-between;
     margin-bottom: 50px;
-    width: 50%;
+    width: 60%;
 }
 
 .name {
