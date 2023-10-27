@@ -1,63 +1,79 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="choose.css" />
-  </head>
-  <body>
-    <div class="header-logo">
-      <img src="images/tcm-logo.jpg">
-    </div>
-    <h2 class="body-header">Choose your interest</h2>
-    <main class="main flow">
-      <div class="main__cards cards">
-        <div class="cards__inner">
-          <div class="cards__card card">
-            <h2 class="card__heading"></h2>
-            <p class="card__price">BUYER</p>
-            <ul role="list" class="card__bullets flow">
-              <li>
-                Ability to choose from a variety of products, services, and
-                sellers
-              </li>
-              <li>
-                Access to information and research that helps them make informed
-                decisions
-              </li>
-              <li>
-                Have the power to negotiate terms, prices, and conditions with
-                sellers
-              </li>
-            </ul>
-            <a href="choose.html" class="card__cta cta">BUYER Area</a>
-          </div>
-
-          <div class="cards__card card">
-            <h2 class="card__heading"></h2>
-            <p class="card__price">SELLER</p>
-            <ul role="list" class="card__bullets flow">
-              <li>
-                Posses the item or capability that fulfills a specific need or
-                desire
-              </li>
-              <li>
-                Ability to market and promote their products or services to
-                reach a wider audience
-              </li>
-              <li>
-                Can use advertising, branding, and sales strategies to attract
-                potential buyers.
-              </li>
-            </ul>
-            <a href="index-seller.html" class="card__cta cta">SELLER Area</a>
+    <link rel="stylesheet" href="login-main.css" />
+</head>
+<body>
+<div class="container1">
+    <div class="left-column">
+        <!-- Contenuto della colonna sinistra -->
+        <div class="header-logo">
+          <h1>The Commodity <span>Business</span></h1>
+          <div class="logo-div">
+            <img src="images/TCB_logo-new.png" class="logo" alt="Business Logo">
           </div>
         </div>
+    
+    </div>
+    <div class="right-column">
+        <h1>LOGIN / REGISTER</h1>
+        
+        <div class="container right-panel-active">
+            <!-- Sign Up -->
+            
+            <div class="container__form container--signin">
+                <form action="#" class="form" id="form2" onsubmit="return validateForm()">
+                    <h2 class="form__title">Login</h2>
+                    <input type="email" placeholder="Email" id="emailField" class="input" required />
+                    <input type="password" placeholder="Password" id="passwordField" class="input" required />
+                    <a href="#" class="link">Forgot your password?</a>
+                    <a href="globe.html" class="btn" id="loginButton">Login</a>
+                </form>
+            </div>
 
-        <div class="overlay cards__inner"></div>
-      </div>
-    </main>
-    <script src="choose.js"></script>
-  </body>
+            <script>
+                function validateForm() {
+                    const emailField = document.getElementById("emailField");
+                    const passwordField = document.getElementById("passwordField");
+            
+                    if (emailField.value.trim() === "" || passwordField.value.trim() === "") {
+                        // Mostra un messaggio di errore o esegui un'altra azione per avvisare l'utente.
+                        alert("Si prega di compilare tutti i campi.");
+                        return false; // Impedisce l'invio del modulo.
+                    }
+                    return true; // Permette l'invio del modulo se i campi sono compilati.
+                }
+            </script>
+        
+            <!-- Sign In -->
+            <div class="container__form container--signup">
+                <form action="#" class="form" id="form1">
+                    <h2 class="form__title">Register</h2>
+                    <input type="text" placeholder="User" class="input" required />
+                    <input type="email" placeholder="Email" class="input" required />
+                    <input type="password" placeholder="Password" class="input" required />
+                    <button href="globe.html" class="btn">Register</button>
+                </form>
+            </div>
+        
+            <!-- Overlay -->
+            <div class="container__overlay">
+                <div class="overlay">
+                    <div class="overlay__panel overlay--left">
+                        <button class="btn" id="signIn">Login</button>
+                    </div>
+                    <div class="overlay__panel overlay--right">
+                        <button class="btn" id="signUp">Register</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+    <script src="login-main.js"></script>
+</body>
 </html>

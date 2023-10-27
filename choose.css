@@ -37,7 +37,6 @@ ul {
   width: 100%;
   margin-bottom: 20px;
   margin-top: -50px;
-
 }
 
 .cards {
@@ -181,6 +180,7 @@ h1{
   align-items: center;
   justify-content: space-between;
   width: 450px;
+  margin-top: 20px;
 }
 
 .logo-div {
