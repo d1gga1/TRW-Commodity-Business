@@ -183,7 +183,9 @@ $(function () {
         return;
       }
   
-      this.$tbody.html(
+      this.$tbody.empty();
+
+      this.$tbody.append(
         products.map(
           (product) =>
             `<tr class="table-row" data-key="${product.id}">
