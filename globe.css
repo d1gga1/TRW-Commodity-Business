@@ -16,3 +16,11 @@ g {
   color: white;
 }
 
+#custom-image {
+  position: fixed;
+  top: 20px;
+  left: 20px;
+  width: 100px; /* Imposta la larghezza desiderata */
+  z-index: 1000; /* Imposta uno z-index elevato per sovrapporre altri contenuti */
+}
+
