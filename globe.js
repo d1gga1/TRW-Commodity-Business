@@ -10,10 +10,10 @@
  * ---------------------------------------
  */
 
-// Create a variable to store the selected country's ID
-var selectedCountryID = null;
-// Call the function when a country is selected
-showElementsForCountry(selectedCountryID);
+// // Create a variable to store the selected country's ID
+// var selectedCountryID = null;
+// // Call the function when a country is selected
+// showElementsForCountry(selectedCountryID);
 
 
 // Themes begin
@@ -74,13 +74,13 @@ chart.seriesContainer.events.on('down', function () {
 })
 
 
-// Event listener for country clicks
-polygonSeries.mapPolygons.template.events.on("hit", function (event) {
-  // Get the ID of the clicked country
-  selectedCountryID = event.target.dataItem.id;
-});
+// // Event listener for country clicks
+// polygonSeries.mapPolygons.template.events.on("hit", function (event) {
+//   // Get the ID of the clicked country
+//   selectedCountryID = event.target.dataItem.id;
+// });
 
-function showElementsForCountry(countryID) {
-  var elements = document.querySelectorAll
-}
+// function showElementsForCountry(countryID) {
+//   var elements = document.querySelectorAll
+// }
 

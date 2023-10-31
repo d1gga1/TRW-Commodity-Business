@@ -15,7 +15,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain;
   background-attachment: fixed;
-  background-position: right;
+  background-position: right 50px;
   background-color: black;
 }
 
@@ -36,8 +36,39 @@ ul {
 .main {
   width: 100%;
   margin-bottom: 20px;
-  margin-top: -50px;
+  margin-top: -65px;
 }
+
+.nav {
+  width: 100vw;
+  height: 30px;
+  font-size: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ddd;
+  color: #ddd;
+  
+  z-index: 101;
+}
+
+.nav ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 0 20px;
+  
+}
+
+.nav ul li {
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.nav ul li:hover {
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  cursor: pointer;
+}
+
 
 .cards {
   position: relative;
@@ -186,12 +217,14 @@ h1{
 .logo-div {
   width: 80px;
   height: 80px;
+  border-radius: 50%;
 }
 
 .logo {
   width: 100%;
   height: 100%;
   border: none;
+  border-radius: 50%;
 }
 
 .header-logo span {
