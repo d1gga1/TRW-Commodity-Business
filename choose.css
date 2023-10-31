@@ -14,11 +14,9 @@
 html,
 body {
   height: 100vh;
-  background-image: url(images/earth[1]_page-0001.jpg);
+  background-image: url(images/globe-image-darker.png);
   background-repeat: no-repeat;
-  background-size: contain;
-  background-attachment: fixed;
-  background-position: right 50px;
+  background-position: right 70px ;
   background-color: black;
 }
 
@@ -30,6 +28,35 @@ body {
   line-height: 1.2;
   color: #ddd;
   overflow: hidden;
+}
+
+.center-background {
+  background-position: center center !important;
+  transition: background-position 2s ease-in-out;
+  background-repeat: no repeat;
+}
+
+.hide-content {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+}
+
+.hide-content.hide-content-done {
+  display: none;
+}
+
+.fade-out-background {
+  opacity: 0;
+  transition: opacity 2s ease-in-out;
+  pointer-events: none;
+  background-repeat: no repeat;
+}
+
+.show-content {
+  opacity: 1;
+  visibility: visible;
+  transition: opacity 2s ease-in-out;
+  background-repeat: no repeat;
 }
 
 ul {
