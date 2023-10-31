@@ -19,12 +19,10 @@ body {
   font-family: 'League Spartan', system-ui, sans-serif;
   font-size: 1.1rem;
   line-height: 1.2;
-  background-image: url(mondo-dark.png);
-  background-size: cover;
-  background-position: center;
-  background-attachment: fixed;
+  background-color: #000;
   color: #ddd;
-  width: 100%;
+  width: 100vw;
+  overflow-x: hidden;
 }
 
 .header {
@@ -51,7 +49,7 @@ body {
     font-size: 16px;
     width: 800px;
     border-radius: 5px;
-    box-shadow: 8px 16px 8px 4px;
+    box-shadow: 8px 16px 8px 4px #444;
     background-color: #ccc;
 }
 
@@ -70,14 +68,26 @@ body {
     padding-top:0;
 }
 
+.submit-div {
+    display: flex;
+    justify-content: center;
+    width: 100vw;
+}
+
 .submit {
     padding: 30px 40px;
-    border: 2px solid white;
-    display: block;
-    margin: 0 auto 100px;
+    border: 1px solid white;
+    margin: 0 auto 30px;
     font-size: 30px;
     color: #ddd;
     background-color: transparent;
     border-radius: 10px;
     font-weight: bolder;
+}
+
+.submit:hover {
+    cursor: pointer;
+    background-color: #222;
+    color: #fff;
+    border: 2px solid white;
 }

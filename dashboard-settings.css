@@ -1,4 +1,6 @@
 @import url(dashboard.css);
+@import url('https://fonts.googleapis.com/css2?family=REM:wght@300&family=Ubuntu&display=swap');
+
 
 :root {
     --text-color: #ddd;
