@@ -16,8 +16,9 @@ body {
   height: 100vh;
   background-image: url(images/globe-image-darker.png);
   background-repeat: no-repeat;
-  background-position: right 70px ;
+  background-position: right;
   background-color: black;
+  background-size: contain;
 }
 
 body {
