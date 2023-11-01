@@ -207,6 +207,10 @@ ul li {
         
     }
 
+    .personal-inputs {
+        margin-top: 20px;
+    }
+
     .tcb-logo {
         margin: -10px 10px 10px 10px;
     }
