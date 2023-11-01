@@ -796,6 +796,8 @@ button { cursor: pointer; }
   .chart-row.two {
     flex-direction: column;
   }
+
+  
   
   .chart-row.two .big {
     max-width: 100%;
@@ -833,6 +835,11 @@ button { cursor: pointer; }
   }
   
   .close-menu { display: flex;}
+
+  
+  .app-left {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 650px) {
@@ -848,6 +855,11 @@ button { cursor: pointer; }
     min-height: 60px;
     min-width: 40px;
   }
+
+  
+  .app-left {
+    display: none;
+  }
 }
 
 @media screen and (max-width: 520px) {
@@ -861,6 +873,10 @@ button { cursor: pointer; }
     &.applicants {
       margin-top: 16px;
     }
+  }
+
+  .app-left {
+    display: none;
   }
   
   .main-header-line h1 {
