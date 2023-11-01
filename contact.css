@@ -1,0 +1,18 @@
+body {
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.centralBar{
+    color: white;
+     font-size: 32px;
+    font-family: Samsung Sharp Sans;
+     font-weight: 700;
+    line-height: 40px;
+     word-wrap: break-word;
+}
