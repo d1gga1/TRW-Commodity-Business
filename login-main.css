@@ -275,6 +275,7 @@ h1{
 	font-weight: 100;
 	font-family: Cormorant;
 	font-size: 55px;
+	cursor:default;
 }
 
 .logo-div {

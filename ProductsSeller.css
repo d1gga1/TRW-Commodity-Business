@@ -190,6 +190,11 @@ select {
     font-family: 'League Spartan', system-ui, sans-serif;
     border-radius: 5px;
 }
+.container {
+    max-width: 15vw;
+    position: absolute;
+    left: 0;
+}
 
 .login-btn:hover {
     background-color: #222;
