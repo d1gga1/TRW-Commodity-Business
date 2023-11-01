@@ -8,6 +8,11 @@
     --delete-btn-color: #C41E3D;
 }
 
+a {
+    text-decoration: none;
+    color: var(--text-color);
+}
+
 
 body {
     background-color: #000;
@@ -174,11 +179,63 @@ ul li {
         
     } */
 
+    .p-input {
+        width: 90vw;
+    }
+
     .app-left {
         display: none;
+
     }
-/* 
+    /* 
     .visible {
         display:
     } */
+
+
+    .app-main {
+        width: 100vw;
+        overflow-x: hidden;
+    }
+
+    .s-input {
+        width: 90vw;
+    }
+
+    #biography {
+        width: 90vw;
+        
+    }
+
+    .tcb-logo {
+        margin: -10px 10px 10px 10px;
+    }
+
+    .app-container {
+        display:initial;
+    }
+
+    .header {
+        margin-left: 20px;
+    }
+
+    .acc-info {
+        margin-left: 20px;
+        max-width: 90vw;
+    }
+
+    .change-pw {
+        margin-left: 20px;
+        max-width: 90vw;
+    }
+
+    .delete {
+        margin-left: 20px;
+        max-width: 90vw;
+        padding-bottom: 20px;
+    }
+
+    .email {
+        margin: 10px;
+    }
 }
