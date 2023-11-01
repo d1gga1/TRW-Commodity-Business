@@ -14,5 +14,7 @@ P3: low Priority
 5. Create "Sell Products" pages                 P1
 6. Add corresponding titles to every page       P2
 7. Solve navigation bar problem with Ken        P1
+8. Test database interactivity                  P1
+
 
 Last: Clean up files for unused classes and IDs (html), attributes (css), and code or files (js)
