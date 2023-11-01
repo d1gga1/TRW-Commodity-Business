@@ -17,7 +17,10 @@ fistForm.addEventListener("submit", (e) => e.preventDefault());
 secondForm.addEventListener("submit", (e) => e.preventDefault());
 
 
+document.getElementById("loginButton").addEventListener("click", function(){
+	window.history.back();
+});
 
-
-
-
+document.getElementById("registerButton").addEventListener("click", function(){
+	window.history.back();
+});

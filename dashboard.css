@@ -842,6 +842,10 @@ button { cursor: pointer; }
   }
 }
 
+.app-logo a {
+  color: white;
+  text-decoration: none;
+}
 
 .header-logo{
   font-family: Cormorant;

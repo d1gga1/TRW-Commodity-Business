@@ -273,9 +273,8 @@ h1{
 .header-logo h1 {
 	color: #fff;
 	font-weight: 100;
-	font-family: 'League Spartan', system-ui, sans-serif;
+	font-family: Cormorant;
 	font-size: 55px;
-	position: relative;
 }
 
 .logo-div {
