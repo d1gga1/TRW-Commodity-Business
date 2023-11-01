@@ -211,3 +211,23 @@ select {
     align-self: start;
     margin-left:10px;
 }
+
+.table-wrapper {
+    overflow-x: auto;
+}
+
+.table-cell {
+    white-space: nowrap;
+}
+
+
+@media (max-width: 768px) {
+    .table-cell {
+        font-size: 12px; /* Riduci la dimensione del carattere */
+        padding: 0 5px; /* Riduci il padding */
+    }
+
+    .table-row {
+        line-height: 36px; /* Riduci l'altezza della riga */
+    }
+}

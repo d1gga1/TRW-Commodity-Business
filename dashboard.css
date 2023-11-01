@@ -5,6 +5,31 @@
 }
 
 
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.dropdown-menu li {
+  padding: 10px;
+}
+
+/* Aggiungi stili per rendere il menu visibile */
+.dropdown-menu.active {
+  display: block;
+}
+
+/* Aggiungi stili per il bottone */
+.menu-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
 
 :root {
   --app-bg-dark: #111;
@@ -791,6 +816,7 @@ button { cursor: pointer; }
 }
 
 @media screen and (max-width: 920px) {
+
   .menu-button {
     display: flex;
   }
