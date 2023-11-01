@@ -67,7 +67,7 @@ ul {
 .main {
   width: 100%;
   margin-bottom: 20px;
-  margin-top: -65px;
+  margin-top: -70px;
 }
 
 .nav {
@@ -285,4 +285,34 @@ h1{
 
 .header-logo span {
   color: #f2994a;
+}
+
+.login-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  background-color: #000;
+  z-index: 1001;
+  color: #ddd;
+  padding: 20px;
+  font-size: 20px;
+  font-weight: 600;
+  border-top: 1px solid white;
+  border-left: 1px solid white;
+  border-right: 2px solid white;
+  border-bottom: 2px solid white;
+  font-family: 'League Spartan', system-ui, sans-serif;
+  border-radius: 5px;
+
+}
+
+.login-btn:hover {
+  background-color: #222;
+  color: #fff;
+  cursor: pointer;
+  border-top: 2px solid #fff;
+  border-left: 2px solid #fff;
+  border-right: 1px solid #fff;
+  border-bottom: 1px solid white;
+
 }
