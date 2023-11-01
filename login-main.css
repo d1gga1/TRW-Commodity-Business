@@ -295,3 +295,65 @@ h1{
 .header-logo span {
 	color: #f2994a;
 }
+
+@media (max-width: 768px) {
+    .container1 {
+        flex-direction: column;
+    }
+
+    .left-column {
+        width: 100%;
+        height: 20%; /* Imposta l'altezza fissa al 30% dell'altezza della viewport */
+    }
+
+    .right-column {
+        width: 100%;
+        height: 70vh; /* Imposta l'altezza rimanente (70% dell'altezza della viewport) */
+    }
+
+    .left-column {
+        order: 2; /* Change the order to 2 (moves it below) */
+    }
+
+    .right-column {
+        order: 1; /* Change the order to 1 (moves it above) */
+    }
+
+    .header-logo {
+        margin-top: 20px; /* Aggiungi spazio sopra la parte superiore */
+    }
+
+    /* Rimpicciolisci il testo e il logo */
+    .header-logo h1 {
+        font-size: 30px; /* Imposta la dimensione del carattere desiderata */
+        word-wrap: break-word; /* Abilita il word-wrap per far andare a capo "Business" */
+        margin-top: 0; /* Rimuovi il margine superiore */
+    }
+
+    .logo {
+        width: 150px; /* Imposta la larghezza del logo desiderata */
+        height: 150px; /* Imposta l'altezza del logo desiderata */
+    }
+
+    /* Aggiungi spazio tra "LOGIN / REGISTER" e il contenuto sottostante */
+    .right-column h1 {
+        margin-bottom: 20px; /* Imposta il margine inferiore desiderato */
+    }
+
+	.input {
+		background-color: #fff;
+		border: none;
+		padding: 0.9rem 0.9rem;
+		margin: 0.5rem 0;
+		width: 60%;
+		border-radius: 8px;
+	}
+
+	.btn{
+		width: 65%;
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+	}
+}
