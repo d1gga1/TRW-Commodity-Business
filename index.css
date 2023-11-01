@@ -387,9 +387,12 @@ h1{
   .dropdown-content {
     display: none;
     position: absolute;
-    right: 40px;
+    overflow: hidden;
+    right: -100%;
     top: 10px;
     line-height: 2;
+    opacity: 0;
+    transition: opacity 5s ease, right 5s ease;
   }
 
   .hamburger ul li {
@@ -411,9 +414,12 @@ h1{
     color: #fff;
   }
 
-  .show {
+  .visible {
     display: flex;
+    right: 45px;
+    opacity: 1;
   }
+
 
 
   .nav {
@@ -428,13 +434,30 @@ h1{
     margin: 0;
   }
 
-  .flow {
+  .main {
     width: 100%;
-    transform: scale(0.1);
   }
 
   .cards {
-    width: 100vw;
+    width: 100%;
   }
 
+  .card__bullets {
+    display: none;
+  }
+
+}
+
+
+@media screen and (min-width: 769px) and (max-width: 1024px){
+
+
+
+  .hamburger {
+    display: none;
+  }
+
+  .nav {
+    display: flex;
+  }
 }
