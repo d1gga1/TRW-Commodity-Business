@@ -67,7 +67,7 @@ ul {
 .main {
   width: 100%;
   margin-bottom: 20px;
-  margin-top: -70px;
+  margin-top: -75px;
 }
 
 .nav {
@@ -134,7 +134,7 @@ ul {
   flex-direction: column;
   flex-wrap: wrap;
   gap: 2.5em;
-  transform: scale(0.7);
+  transform: scale(0.75);
   max-width: 750px;
 }
 
@@ -259,32 +259,40 @@ h1{
 	position: relative;
 	z-index: 101;
   font-weight: 100;
+  font-size: 40px;
 }
 
 .header-logo{
   font-family: Cormorant;
   display: flex;
   align-items: center;
-  justify-content: space-between;
-  width: 450px;
-  margin-top: 20px;
+  margin-left: 30%;
+  width: 100vw;
+  margin-top: 10px;
 }
 
 .logo-div {
   width: 80px;
   height: 80px;
-  border-radius: 50%;
+  margin-left: 20px;
+  background-color: rgba(0,0,0,.5);
+  padding: 5px;
+
 }
 
 .logo {
   width: 100%;
   height: 100%;
   border: none;
-  border-radius: 50%;
+  background: transparent;
 }
 
-.header-logo span {
+.orange {
   color: #f2994a;
+}
+
+.big {
+  font-size: 50px;
 }
 
 .login-btn {
@@ -314,5 +322,68 @@ h1{
   border-left: 2px solid #fff;
   border-right: 1px solid #fff;
   border-bottom: 1px solid white;
+
+}
+
+
+/* Responsiveness for phones and tablets */
+
+@media screen and (max-width: 768px) {
+
+  html, body {
+    background-position: center;
+  }
+
+  body {
+    width: 100vw;
+    overflow: hidden;
+    /* transform: scale(0.7); */
+  }
+
+
+
+  .header-logo {
+    width: 100%;
+    flex-wrap: wrap;
+    align-items: left;
+    transform: scale(0.5);
+    z-index: 1000;
+    margin-left: 0;
+  }
+
+  .logo-div {
+    position: relative;
+    margin: 0 auto;
+  }
+
+  .login-btn {
+    transform: scale(0.6);
+  }
+
+  .nav {
+    width: 100vw;
+    font-size: 10px;
+    margin: 20px 0;
+    padding: 0;
+    z-index: 99;
+    top: 100px;  
+  }
+
+  .nav ul {
+    margin: 0;
+  }
+
+  .nav ul li {
+    margin: 0;
+  }
+
+  .flow {
+    width: 100%;
+    transform: scale(0.1);
+  }
+
+  .cards {
+    width: 100vw;
+  }
 
 }
