@@ -44,3 +44,13 @@ const initOverlayCard = (cardEl) => {
 
 cards.forEach(initOverlayCard)
 document.body.addEventListener('pointermove', applyOverlayMask)
+
+
+
+const hamburgerBtn = document.getElementById("ham-btn");
+
+
+hamburgerBtn.addEventListener("click", () => {
+  const dropdown = div.querySelector(".dropdown-content");
+  dropdown.classList.toggle("show");
+});
