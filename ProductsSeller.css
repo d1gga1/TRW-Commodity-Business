@@ -216,3 +216,51 @@ select {
     align-self: start;
     margin-left:10px;
 }
+
+@media (max-width: 1180px) {
+
+
+    .container{
+        display: none;
+    }
+
+    .heading-lv1,
+    .table-handler{
+        display: flex;
+		justify-content: center;
+		align-items: center;
+		text-align: center;
+    }
+
+
+
+}
+
+@media (max-width: 768px) {
+
+
+    .container{
+        display: none;
+    }
+
+    .heading-lv1,
+    .table-handler{
+		justify-content: center;
+		align-items: center;
+		text-align:center;
+    }
+
+    .table-app{
+        width: 100%;
+    }
+
+    .seller-list {
+        max-width: 100%;
+        overflow: auto; /* Per abilitare la barra di scorrimento orizzontale se necessario */
+      }
+      
+      .table-app {
+        width: 100%;
+        overflow-x: auto; /* Per abilitare la barra di scorrimento orizzontale se necessario */
+      }
+}
