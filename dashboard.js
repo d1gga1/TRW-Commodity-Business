@@ -1,5 +1,5 @@
 const hamburgerBtn = document.getElementById("hamburger");
-
+	
 
 
 var chart    = document.getElementById('chart').getContext('2d'),

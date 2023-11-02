@@ -51,6 +51,7 @@ body {
 
 .app-left {
   flex-basis: 240px;
+  width: 200px;
   min-width: 200px;
   background-color: var(--app-bg-dark);
   height: 100%;
@@ -944,7 +945,7 @@ button { cursor: pointer; }
 }
 
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
   .hamburger {
     display: initial;
     position: relative;
@@ -962,15 +963,106 @@ button { cursor: pointer; }
     margin-top: 150px;
   }
 
- 
+  .hamburger {
+    left: 0;
+    float: right;
+    margin-right: 20px;
+}
 
+#hamburger {
+    width: 10vw;
+}
 
+.dropdown-content {
+    right: 20px;
+    top: -30px;
+}
+
+.p-input {
+    width: 90vw;
+}
+
+.app-left {
+    display: none;
 
 }
 
 
 
-@media screen and (min-width: 768px) and (max-width: 1024px) {
+.app-main {
+    width: 100vw;
+    overflow-x: hidden;
+    overflow: hidden;
+}
+
+.s-input {
+    width: 90vw;
+}
+
+#biography {
+    width: 90vw;
+    
+}
+
+.personal-inputs {
+    margin-top: 20px;
+}
+
+.personal-inputs div {
+    margin-right: 0;
+}
+
+.tcb-logo {
+    margin: -10px 10px 10px 10px;
+}
+
+.app-container {
+    display:initial;
+    overflow-x: hidden;
+}
+
+.header {
+    margin-top: 30px;
+}
+
+.acc-info {
+    max-width: 90vw;
+    margin-top: 120px;
+}
+
+.change-pw {
+    max-width: 90vw;
+}
+
+.delete {
+    max-width: 90vw;
+    padding-bottom: 20px;
+}
+
+.email {
+    margin: 10px;
+}
+}
+
+
+
+
+
+@media screen and (max-width: 915px) and (orientation: landscape) {
+
+  .hamburger {
+      display: initial;
+  }
+
+  .dropdown-content {
+    margin-right: 110%;
+  }
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 1023px) and (orientation: portrait) {
+
   .hamburger {
     display: initial;
     position: relative;
@@ -980,10 +1072,39 @@ button { cursor: pointer; }
   }
 
   .dropdown-content {
+    margin-right: 50px;
     right: 100%;
   }
 
-  .three {
-    margin-top: 100px;
+  .biography {
+      width: 90vw;
   }
+
+  body {
+    width: 100vw;
+    overflow-x: hidden;
+  }
+
+  .personal-inputs {
+    width: 100%;
+  }
+
 }
+
+
+@media screen and (min-width: 916px) and (max-width: 1023px) and (orientation: landscape) {
+
+  .hamburger {
+      display: initial;
+  }
+
+  
+  .biography {
+    max-width: 90vw;
+  }
+
+  #biography {
+    width: 100%;
+  }
+
+} 
