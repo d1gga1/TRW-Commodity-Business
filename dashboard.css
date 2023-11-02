@@ -5,31 +5,6 @@
 }
 
 
-.dropdown-menu {
-  display: none;
-  position: absolute;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.dropdown-menu li {
-  padding: 10px;
-}
-
-/* Aggiungi stili per rendere il menu visibile */
-.dropdown-menu.active {
-  display: block;
-}
-
-/* Aggiungi stili per il bottone */
-.menu-button {
-  background: none;
-  border: none;
-  cursor: pointer;
-}
 
 :root {
   --app-bg-dark: #111;
@@ -163,6 +138,72 @@ a {
 }
 
 button { cursor: pointer; }
+
+
+
+
+
+.hamburger {
+  display: none;
+  position: absolute;
+  top: 30px;
+  right: 30px;
+  width: 50px;
+  height: 50px;
+}
+
+.hamburger a {
+  color: #fff;
+  text-decoration: none;
+  font-family: inherit;
+}
+
+.dropdown-content {
+  display: none;
+  flex-direction: column;
+  position: absolute;
+  top: -10px;
+  right: 30px;
+}
+
+.dropdown-content ul li{
+  list-style: none;
+}
+
+.ham-list-link {
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 24px;
+  padding: 8px 24px;
+  color: var(--nav-link);
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.lines {
+  color: var(--main-color);
+  line-height: 0.7;
+  font-size: 10px;
+  width: 35px;
+  height: 35px;
+  padding: 5px;
+}
+
+.lines:active {
+  background-color: #222;
+  color: #fff;
+
+}
+
+
+
+
+.visible {
+  display: flex;
+}
+
+
 
 .nav-list {
   margin-top: 40px;
@@ -716,24 +757,6 @@ button { cursor: pointer; }
   }
 }
 
-.action-buttons {
-  display: flex;
-  align-items: center;
-}
-
-.menu-button {
-  width: 40px;
-  height: 40px;
-  margin-left: 8px;
-  display: none;
-  justify-content: center;
-  align-items: center;
-  padding: 0;
-  background-color: var(--app-bg-dark);
-  border: none;
-  color: var(--main-color);
-  border-radius: 4px;
-}
 
 .close-menu {
   position: absolute;
@@ -819,9 +842,6 @@ button { cursor: pointer; }
 
 @media screen and (max-width: 920px) {
 
-  .menu-button {
-    display: flex;
-  }
   
   .app-left {
     position: absolute;
@@ -921,4 +941,49 @@ button { cursor: pointer; }
 
 .header-logo span {
   color: #f2994a;
+}
+
+
+@media screen and (max-width: 768px) {
+  .hamburger {
+    display: initial;
+    position: relative;
+    background: transparent;
+    top: 20px;
+    left: 90%;
+  }
+
+  .dropdown-content {
+    right: 100%;
+  }
+  
+  
+  .three {
+    margin-top: 150px;
+  }
+
+ 
+
+
+
+}
+
+
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .hamburger {
+    display: initial;
+    position: relative;
+    background: transparent;
+    top: 20px;
+    left: 90%;
+  }
+
+  .dropdown-content {
+    right: 100%;
+  }
+
+  .three {
+    margin-top: 100px;
+  }
 }

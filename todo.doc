@@ -15,6 +15,9 @@ P3: low Priority
 6. Add corresponding titles to every page       P2
 7. Solve navigation bar problem with Ken        P1
 8. Test database interactivity                  P1
+9. Change all fonts to the corresponding ones   P2
+10. QoL change index hamburger lines from 
+underscores to <hr> tags                        P3
 
 
 Last: Clean up files for unused classes and IDs (html), attributes (css), and code or files (js)

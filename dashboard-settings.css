@@ -16,7 +16,7 @@ a {
 
 body {
     background-color: #000;
-    
+    overflow-x: hidden;
 }
 
 .app-main {
@@ -179,6 +179,10 @@ ul li {
         
     } */
 
+    .hamburger {
+        right: 20px;
+    }
+
     .p-input {
         width: 90vw;
     }
@@ -226,6 +230,7 @@ ul li {
     .acc-info {
         margin-left: 20px;
         max-width: 90vw;
+        margin-top: 100px;
     }
 
     .change-pw {
