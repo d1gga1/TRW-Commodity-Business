@@ -772,6 +772,24 @@ button { cursor: pointer; }
   cursor: pointer;
 }
 
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: transparent;
+  text-align: center;
+  color: white;
+  font-size: 10px;
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
+}
+
 @media screen and (max-width: 1350px) {
   .app-right {
     flex-basis: 240px;
@@ -1101,19 +1119,3 @@ button { cursor: pointer; }
 
 } 
 
-
-.footer {
-  position: fixed;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  padding: 1rem;
-  background-color: transparent;
-  text-align: center;
-  color: white;
-}
-
-.footer a{
-  color: white;
-  text-decoration: none;
-}

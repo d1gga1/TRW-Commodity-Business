@@ -297,6 +297,25 @@ h1{
 }
 
 
+
+.footer {
+	z-index: 100;
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	padding: 1rem;
+	background-color: transparent;
+	text-align: center;
+	color: white;
+	font-size: 10px;
+  }
+  
+  .footer a{
+	color: white;
+	text-decoration: none;
+  }
+
 @media screen and (max-width: 425px) {
 	body {
 		width: 100%;
@@ -371,6 +390,11 @@ h1{
 		align-items: center;
 		text-align: center;
 	}
+
+	.footer {
+		font-size: 50%;
+	}
+
 }
 
 
@@ -449,22 +473,9 @@ h1{
 		align-items: center;
 		text-align: center;
 	}
+
+	.footer {
+		font-size: 50%;
+	}
+
 }
-
-
-.footer {
-	z-index: 100;
-	position: absolute;
-	right: 0;
-	bottom: 0;
-	left: 0;
-	padding: 1rem;
-	background-color: transparent;
-	text-align: center;
-	color: white;
-  }
-  
-  .footer a{
-	color: white;
-	text-decoration: none;
-  }
