@@ -8,13 +8,13 @@ P3: low Priority
 
 
 1. Change logo everywhere                       P2
-2. Finish phone compatibility                   P1
-3. Add tablet compatibility                     P1
-4. Create "Terms & Privacy" page                P1
-5. Create "Sell Products" pages                 P1
-6. Add corresponding titles to every page       P2
-7. Solve navigation bar problem with Ken        P1
-8. Test database interactivity                  P1
+2. Finish phone compatibility                   P1 done
+3. Add tablet compatibility                     P1 settings almost done, dashboard done, index & login missing
+4. Create "Terms & Privacy" page                P1 done
+5. Create "Sell Products" pages                 P1 
+6. Add corresponding titles to every page       P2 
+7. Solve navigation bar problem with Ken        P1 done
+8. Test database interactivity                  P1 not out part
 9. Change all fonts to the corresponding ones   P2
 10. QoL change index hamburger lines from 
 underscores to <hr> tags                        P3

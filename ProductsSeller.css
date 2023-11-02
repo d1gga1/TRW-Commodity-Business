@@ -1,4 +1,5 @@
 @import url(dashboard-settings.css);
+@import url(dashboard.css);
 
 
 *, *::before, *::after {
@@ -103,14 +104,8 @@ select {
     outline: none;
     box-shadow: 0 0 0 2px gray;
 }
-.container {
-    width: 100%;
-    padding-top: 20px;
-    padding-right: 24px;
-    padding-left: 24px;
-    margin: 0 auto;
 
-}
+
 .table-app {
     min-width: 700px;
 }
@@ -173,48 +168,14 @@ select {
 }
 
 
-.login-btn {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    background-color: transparent;
-    z-index: 1001;
-    color: #ddd;
-    padding: 20px;
-    font-size: 20px;
-    font-weight: 600;
-    border-top: 1px solid white;
-    border-left: 1px solid white;
-    border-right: 2px solid white;
-    border-bottom: 2px solid white;
-    font-family: 'League Spartan', system-ui, sans-serif;
-    border-radius: 5px;
-}
-.container {
-    max-width: 15vw;
-    position: absolute;
-    left: 0;
-}
-
-.login-btn:hover {
-    background-color: #222;
-    color: #fff;
-    cursor: pointer;
-    border-top: 2px solid #fff;
-    border-left: 2px solid #fff;
-    border-right: 1px solid #fff;
-    border-bottom: 1px solid white; 
-}
-
-
 .nav-list-item {
     list-style: none;
 }
 
 
 .seller-list {
-    align-self: start;
-    margin-left:10px;
+    margin: 0 20px;
+    width: 100%;
 }
 
 @media (max-width: 1180px) {

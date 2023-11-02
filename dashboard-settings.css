@@ -4,8 +4,8 @@
 
 :root {
     --text-color: #ddd;
-    --save-btn-color: #FF8811; 
-    --delete-btn-color: #C41E3D;
+    --save-btn-color: #f2994a; 
+    --delete-btn-color: #ff0000;
 }
 
 a {
@@ -22,7 +22,7 @@ body {
 .app-main {
     background-color: #000;
     margin-left: 20px;
-    
+    width: 10%;
 
 
 }
@@ -32,6 +32,7 @@ body {
     font-family: inherit;
     margin-bottom: 50px;
     margin-left: 20px;
+    width: 300px;
 }
 
 .pfp-icon {
@@ -41,6 +42,10 @@ body {
     background-color: #fff;
     padding: 5px;
     margin-left: 15px;
+}
+
+.acc-info {
+    max-width: 100%;
 }
 
 .email {
@@ -60,6 +65,7 @@ body {
     color: var(--text-color);
     font-size: 1.3em;
     margin-left: 20px;
+    width: 100%;
 }
 
 .input-headers {
@@ -110,11 +116,12 @@ ul li {
     flex-direction: column;
     margin-right: 0;
     margin-bottom: 20px;
+    width: 90vw;
 }
 
 #biography {
     padding: 10px;
-    width: 850px;
+    width: 100%;
     border-radius: 5px;
 }
 
