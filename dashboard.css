@@ -1108,3 +1108,20 @@ button { cursor: pointer; }
   }
 
 } 
+
+
+.footer {
+  position: fixed;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: transparent;
+  text-align: center;
+  color: white;
+}
+
+.footer a{
+  color: white;
+  text-decoration: none;
+}

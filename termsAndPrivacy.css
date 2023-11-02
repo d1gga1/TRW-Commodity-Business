@@ -5,13 +5,21 @@ body {
     align-items: center;
     justify-content: center;
     color: white;
-    font-family: 'Cabin', sans-serif;
+    font-family: Samsung Sharp Sans;
     
 }
 
+#custom-image {
+    position: relative;
+    top: 20px;
+    left: 0px;
+    width: 100px; /* Imposta la larghezza desiderata */
+    z-index: 1000; /* Imposta uno z-index elevato per sovrapporre altri contenuti */
+  }
+
 .privacy-page-top {
     margin: 5% 0;
-    font-family: 'Cabin', sans-serif;
+    font-family: "Samsung Sharp" Sans;
     font-size: 1.5em;
     font-weight: bold;
     text-align: center;
@@ -26,7 +34,7 @@ body {
 
 .privacy-page-title {
     color: #f2994a;
-    font-family: "Roboto", sans-serif;
+    font-family: Samsung Sharp Sans;
     font-size: 4.5em;
     margin: 2% 0;
     font-weight: lighter;
@@ -35,7 +43,7 @@ body {
 }
 
 .privacy-paragraph-heading {
-    font-family: "Abhaya Libre", sans-serif;
+    font-family: Samsung Sharp Sans;
     color: white;
     font-weight: bolder;
     font-size: 1.5em;
@@ -43,7 +51,7 @@ body {
 }
 
 .privacy-content {
-    font-family: 'Abhaya Libre', sans-serif;
+    font-family: Samsung Sharp Sans;
     margin: 0;
     display: flex;
     flex-direction: column;
@@ -67,7 +75,7 @@ body {
 
 .privacy-paragraph-body {
     line-height: 2em;
-    font-family: 'Cabin', sans-serif;
+    font-family: Samsung Sharp Sans;
 }
 
 .privacy-policy-nav-menu {
@@ -123,9 +131,8 @@ body {
     background-color: #f39c12;
 }
 
-@media (max-width: 481px) {
+@media (max-width: 768px) {
     .privacy-page-body,
-    .privacy-page-top,
     .privacy-page-title,
     .privacy-content,
     .privacy-policy-nav-menu {
@@ -140,5 +147,9 @@ body {
     .privacy-page-title {
         font-size: 3em;
         line-height: 1em;
+    }
+
+    .privacy-page-top{
+        display: none;
     }
 }
