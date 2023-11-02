@@ -1,0 +1,144 @@
+body {
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-family: 'Cabin', sans-serif;
+    
+}
+
+.privacy-page-top {
+    margin: 5% 0;
+    font-family: 'Cabin', sans-serif;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
+.privacy-page-body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+}
+
+.privacy-page-title {
+    color: #f2994a;
+    font-family: "Roboto", sans-serif;
+    font-size: 4.5em;
+    margin: 2% 0;
+    font-weight: lighter;
+    text-align: center;
+    width: 70%;
+}
+
+.privacy-paragraph-heading {
+    font-family: "Abhaya Libre", sans-serif;
+    color: white;
+    font-weight: bolder;
+    font-size: 1.5em;
+    margin: 3% 0;
+}
+
+.privacy-content {
+    font-family: 'Abhaya Libre', sans-serif;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 70%;
+}
+
+.privacy-paragraph-body {
+    margin-right: 4%;
+    margin-bottom: 4em;
+}
+
+.privacy-paragraph-text-followed {
+    margin: 1em 0;
+    color: white;
+}
+
+.privacy-paragraph-text {
+    color: white;
+}
+
+.privacy-paragraph-body {
+    line-height: 2em;
+    font-family: 'Cabin', sans-serif;
+}
+
+.privacy-policy-nav-menu {
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    vertical-align: top;
+}
+
+.privacy-nav-menu-wrapper {
+    background-color: #f39c12;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.privacy-nav-menu-wrapper a {
+    display: block;
+    height: inherit;
+    width: inherit;
+    padding: 1em;
+}
+
+.privacy-nav-menu2,
+.privacy-nav-menu1 {
+    display: block;
+    background-color: #f39c12;
+}
+
+.site-map-link:hover,
+.privacy-policy-link,
+.privacy-policy-link:hover {
+    color: black;
+    text-decoration: none;
+}
+
+.privacy-nav-menu2 {
+    background-color: black;
+    border-bottom: 2px groove black;
+}
+
+.site-map-link {
+    color: #f39c12;
+    text-decoration: none;
+}
+
+.privacy-nav-menu2:hover {
+    background-color: #f39c12;
+}
+
+@media (max-width: 481px) {
+    .privacy-page-body,
+    .privacy-page-top,
+    .privacy-page-title,
+    .privacy-content,
+    .privacy-policy-nav-menu {
+        width: 90%;
+        text-align: center;
+    }
+
+    .privacy-page-top {
+        padding-bottom: 15px;
+    }
+
+    .privacy-page-title {
+        font-size: 3em;
+        line-height: 1em;
+    }
+}
