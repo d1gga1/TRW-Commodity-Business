@@ -1,6 +1,5 @@
 @import url(dashboard-settings.css);
 @import url(dashboard.css);
-@import url(index.css);
 
 
 
@@ -9,7 +8,7 @@
 }
 body {
     overscroll-behavior-y: none;
-    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+    font-family: Samsung Sharp Sans;
     background-color: black;
     background-image: none;
 }

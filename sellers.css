@@ -7,10 +7,10 @@ html {
     background-color: #000;
     color: #eee
 }
-/* 
+
 body {
-    overflow-x: hidden;
-} */
+    font-family: Samsung Sharp Sans;
+}
 
 .seller-pic-name {
     display: flex;
@@ -39,7 +39,7 @@ body {
 .bsn-name {
     margin-left: 15vw;
     font-size: 40px;
-    font-family: 'League Spartan', system-ui, sans-serif;
+    
 }
 
 .seller-data {
