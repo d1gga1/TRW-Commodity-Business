@@ -16,15 +16,7 @@ a {
 }
 select {
     font-family: inherit;
-}
-.align-left {
-    text-align: left;
-}
-.align-center {
-    text-align: center;
-}
-.align-right {
-    text-align: right;
+    
 }
 .hidden {
     display: none;
@@ -82,17 +74,20 @@ select {
     font-size: 14px;
     line-height: 2;
     cursor: pointer;
-    background-color: #fff;
-    background-image: url(https://dl.dropbox.com/s/ru1dbh5omn3deeh/arrow.svg?dl=0);
+    background-color: #111;
+    color: #fff;
+    background-image: url(images/white-down-arrow-png-2.png);
     background-repeat: no-repeat;
     background-position: right 15px center;
-    background-size: 10px 10px;
-    border: 1px solid #ccc;
+    background-size: 15px 15px;
+    border: 1px solid #e5e5e5;
     border-radius: 5px;
     transition: all 0.2s ease-out;
     appearance: none;
    /* delete browser picker */
 }
+
+
 .select::-ms-expand {
     display: none;
    /* delete browser picker */
@@ -108,6 +103,7 @@ select {
 
 .table-app {
     min-width: 700px;
+    
 }
 .table-handler {
     margin-bottom: 16px;
@@ -127,31 +123,42 @@ select {
     border-collapse: collapse;
 }
 .table-head {
-    line-height: 48px;
+    height: 50px;
+    z-index: 100;
+    
 }
 .table-head th {
+    z-index: 1000;
     position: sticky;
     top: 0;
     font-weight: bold;
     color: white;
-    background-color: gray;
+    background-color: #000;
     box-shadow: 0 2px 0 0 white;
+    text-align: start;
 }
+
+
 .table-row {
-    line-height: 48px;
+    height: 120px;
     color: #111;
     
 }
-.table-row:nth-child(even) {
-    background-color: #f8f8f8;
-}
-.table-row:nth-child(odd) {
-    background-color: #eee;
-}
+
+
 .table-cell {
-    padding: 0 10px;
+    padding: 0;
     font-size: 14px;
     white-space: nowrap;
+    border-left: 1px solid black;
+    color: #fff;
+    margin-left: 10px;
+}
+
+.table-cell img {
+    height: 100px;
+    width: auto;
+    padding: 5px;
 }
 
 .no-results {
@@ -177,6 +184,38 @@ select {
     margin: 0 20px;
     width: 100%;
 }
+
+.btn {
+    background-color: #fff;
+    color: #000;
+    border: none;
+    border-radius: 5px;
+    margin: 5px;
+    transition: transform 0.3s ease;
+}
+
+.edit-btn {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 5px 10px;
+    
+}
+
+.btn:active {
+    transform: scale(0.9);
+}
+
+
+.active{
+    color: green;
+    font-weight: 600;
+}
+
+.expired{
+    color: red;
+}
+
 
 @media (max-width: 1180px) {
 

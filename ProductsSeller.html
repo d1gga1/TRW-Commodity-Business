@@ -139,106 +139,269 @@
           <div class="table-wrapper">
             <table class="table" id="table">
               <thead>
-                <tr class="table-row" data-id="1">
-                    <!-- ... Contenuto della riga ... -->
-                  </tr>
+                
                 <tr class="table-head">
-                  <th class="table-cell align-right">ID</th>
-                  <th class="table-cell align-left">Company</th>
-                  <th class="table-cell align-left">Type</th>
-                  <th class="table-cell align-left">Country</th>
-                  <th class="table-cell align-right">Price</th>
-                  <th class="table-cell align-left">Status</th>
-                  <th class="table-cell align-left">Created at</th>
-                  <th class="table-cell align-left">Updated at</th>
-                  <th class="table-cell align-left">GO</th>
+                  <th class="table-cell ">Ad</th>
+                  <th class="table-cell ">Date</th>
+                  <th class="table-cell ">Price</th>
+                  <th class="table-cell ">Status</th>
+                  <th class="table-cell ">Action</th>
                   
                 </tr>
                 </thead>
                 <tbody>
                 <tr class="table-row" id="seller GE">
-                    <td class="table-cell align-right">1</td>
-                    <td class="table-cell align-left">Example Company</td>
-                    <td class="table-cell align-left">Example Type</td>
-                    <td class="table-cell align-left">Example Country</td>
-                    <td class="table-cell align-right">19.99</td>
-                    <td class="table-cell align-left">In Stock</td>
-                    <td class="table-cell align-left">2023-10-26</td>
-                    <td class="table-cell align-left">2023-10-26</td>
-                    <td class="table-cell align-left"><a href="sellers.html"><button>CLICK</button></a></td>
+                    <td class="table-cell "> 
+                    <img src="images/globe-image.png">  Example Ad
+                     </td>
+                    <td class="table-cell ">Aug 1, 2023</td>
+                    <td class="table-cell ">$200.00</td>
+                    <td class="table-cell status">Active</td>
+                    <td class="table-cell ">
+                      
+                      <button type="button" class="btn edit-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="PencilLine">
+                          <g id="PencilLine_2">
+                          <path id="Vector" d="M9 20.25H4.5C4.30109 20.25 4.11032 20.171 3.96967 20.0303C3.82902 19.8897 3.75 19.6989 3.75 19.5V15.3107C3.75 15.2122 3.7694 15.1147 3.80709 15.0237C3.84478 14.9327 3.90003 14.85 3.96967 14.7803L15.2197 3.53034C15.3603 3.38969 15.5511 3.31067 15.75 3.31067C15.9489 3.31067 16.1397 3.38969 16.2803 3.53034L20.4697 7.71968C20.6103 7.86033 20.6893 8.0511 20.6893 8.25001C20.6893 8.44892 20.6103 8.63969 20.4697 8.78034L9 20.25Z" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="Vector_2" d="M12.75 6L18 11.25" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="Vector_3" d="M20.2501 20.25H9.00013L3.79785 15.0477" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          </g>
+                          </svg>
+                          
+                          Edit
+                      </button>
 
+                      <button type="button" class="btn settings-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="DotsThree">
+                          <g id="DotsThree_2">
+                          <path id="Vector" d="M12 13.375C12.7594 13.375 13.375 12.7594 13.375 12C13.375 11.2406 12.7594 10.625 12 10.625C11.2406 10.625 10.625 11.2406 10.625 12C10.625 12.7594 11.2406 13.375 12 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          <path id="Vector_2" d="M18 13.375C18.7594 13.375 19.375 12.7594 19.375 12C19.375 11.2406 18.7594 10.625 18 10.625C17.2406 10.625 16.625 11.2406 16.625 12C16.625 12.7594 17.2406 13.375 18 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          <path id="Vector_3" d="M6 13.375C6.75939 13.375 7.375 12.7594 7.375 12C7.375 11.2406 6.75939 10.625 6 10.625C5.24061 10.625 4.625 11.2406 4.625 12C4.625 12.7594 5.24061 13.375 6 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          </g>
+                          </g>
+                          </svg>
+                                            
+                      </button>
+
+                    </td>
+                    
                 </tr>
               
                 <tr class="table-row" id="seller BR">
-                  <td class="table-cell align-right">1</td>
-                  <td class="table-cell align-left">Example Company</td>
-                  <td class="table-cell align-left">Example Type</td>
-                  <td class="table-cell align-left">Example Country</td>
-                  <td class="table-cell align-right">19.99</td>
-                  <td class="table-cell align-left">In Stock</td>
-                  <td class="table-cell align-left">2023-10-26</td>
-                  <td class="table-cell align-left">2023-10-26</td>
-                  <td class="table-cell align-left"><a href="sellers.html"><button>CLICK</button></a></td>
-
+                  <td class="table-cell "> 
+                    <img src="images/globe-image.png">  Example Ad
+                     </td>
+                    <td class="table-cell ">Aug 1, 2023</td>
+                    <td class="table-cell ">$200.00</td>
+                    <td class="table-cell status">Expired</td>
+                    <td class="table-cell ">
+                      <button type="button" class="btn edit-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="PencilLine">
+                          <g id="PencilLine_2">
+                          <path id="Vector" d="M9 20.25H4.5C4.30109 20.25 4.11032 20.171 3.96967 20.0303C3.82902 19.8897 3.75 19.6989 3.75 19.5V15.3107C3.75 15.2122 3.7694 15.1147 3.80709 15.0237C3.84478 14.9327 3.90003 14.85 3.96967 14.7803L15.2197 3.53034C15.3603 3.38969 15.5511 3.31067 15.75 3.31067C15.9489 3.31067 16.1397 3.38969 16.2803 3.53034L20.4697 7.71968C20.6103 7.86033 20.6893 8.0511 20.6893 8.25001C20.6893 8.44892 20.6103 8.63969 20.4697 8.78034L9 20.25Z" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="Vector_2" d="M12.75 6L18 11.25" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="Vector_3" d="M20.2501 20.25H9.00013L3.79785 15.0477" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          </g>
+                          </svg>
+                                                  Edit
+                      </button>
+                      <button type="button" class="btn settings-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="DotsThree">
+                          <g id="DotsThree_2">
+                          <path id="Vector" d="M12 13.375C12.7594 13.375 13.375 12.7594 13.375 12C13.375 11.2406 12.7594 10.625 12 10.625C11.2406 10.625 10.625 11.2406 10.625 12C10.625 12.7594 11.2406 13.375 12 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          <path id="Vector_2" d="M18 13.375C18.7594 13.375 19.375 12.7594 19.375 12C19.375 11.2406 18.7594 10.625 18 10.625C17.2406 10.625 16.625 11.2406 16.625 12C16.625 12.7594 17.2406 13.375 18 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          <path id="Vector_3" d="M6 13.375C6.75939 13.375 7.375 12.7594 7.375 12C7.375 11.2406 6.75939 10.625 6 10.625C5.24061 10.625 4.625 11.2406 4.625 12C4.625 12.7594 5.24061 13.375 6 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          </g>
+                          </g>
+                          </svg>
+                                            
+                      </button>
+                      <div class="dropdown-content">
+                        <a href="#">View Ad Details</a>
+                        <a href="#">Mark as Expired</a>
+                        <a href="#">Delete Ad</a>
+                      </div>
+                    </td>
                 </tr>
                 <tr class="table-row" id="seller USA">
-                  <td class="table-cell align-right">1</td>
-                  <td class="table-cell align-left">Example Company</td>
-                  <td class="table-cell align-left">Example Type</td>
-                  <td class="table-cell align-left">Example Country</td>
-                  <td class="table-cell align-right">19.99</td>
-                  <td class="table-cell align-left">In Stock</td>
-                  <td class="table-cell align-left">2023-10-26</td>
-                  <td class="table-cell align-left">2023-10-26</td>
-                  <td class="table-cell align-left"><a href="sellers.html"><button>CLICK</button></a></td>
-
-                </tr>
+                  <td class="table-cell "> 
+                    <img src="images/globe-image.png">  Example Ad
+                     </td>
+                    <td class="table-cell ">Aug 1, 2023</td>
+                    <td class="table-cell ">$200.00</td>
+                    <td class="table-cell status">Active</td>
+                    <td class="table-cell ">
+                      <button type="button" class="btn edit-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="PencilLine">
+                          <g id="PencilLine_2">
+                          <path id="Vector" d="M9 20.25H4.5C4.30109 20.25 4.11032 20.171 3.96967 20.0303C3.82902 19.8897 3.75 19.6989 3.75 19.5V15.3107C3.75 15.2122 3.7694 15.1147 3.80709 15.0237C3.84478 14.9327 3.90003 14.85 3.96967 14.7803L15.2197 3.53034C15.3603 3.38969 15.5511 3.31067 15.75 3.31067C15.9489 3.31067 16.1397 3.38969 16.2803 3.53034L20.4697 7.71968C20.6103 7.86033 20.6893 8.0511 20.6893 8.25001C20.6893 8.44892 20.6103 8.63969 20.4697 8.78034L9 20.25Z" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="Vector_2" d="M12.75 6L18 11.25" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="Vector_3" d="M20.2501 20.25H9.00013L3.79785 15.0477" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          </g>
+                          </svg>
+                                                  Edit
+                      </button>
+                      <button type="button" class="btn settings-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="DotsThree">
+                          <g id="DotsThree_2">
+                          <path id="Vector" d="M12 13.375C12.7594 13.375 13.375 12.7594 13.375 12C13.375 11.2406 12.7594 10.625 12 10.625C11.2406 10.625 10.625 11.2406 10.625 12C10.625 12.7594 11.2406 13.375 12 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          <path id="Vector_2" d="M18 13.375C18.7594 13.375 19.375 12.7594 19.375 12C19.375 11.2406 18.7594 10.625 18 10.625C17.2406 10.625 16.625 11.2406 16.625 12C16.625 12.7594 17.2406 13.375 18 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          <path id="Vector_3" d="M6 13.375C6.75939 13.375 7.375 12.7594 7.375 12C7.375 11.2406 6.75939 10.625 6 10.625C5.24061 10.625 4.625 11.2406 4.625 12C4.625 12.7594 5.24061 13.375 6 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          </g>
+                          </g>
+                          </svg>
+                                            
+                      </button>
+                    </td>                
+                  </tr>
                 <tr class="table-row" id="seller E">
-                  <td class="table-cell align-right">1</td>
-                  <td class="table-cell align-left">Example Company</td>
-                  <td class="table-cell align-left">Example Type</td>
-                  <td class="table-cell align-left">Example Country</td>
-                  <td class="table-cell align-right">19.99</td>
-                  <td class="table-cell align-left">In Stock</td>
-                  <td class="table-cell align-left">2023-10-26</td>
-                  <td class="table-cell align-left">2023-10-26</td>
-                  <td class="table-cell align-left"><a href="sellers.html"><button>CLICK</button></a></td>
+                  <td class="table-cell "> 
+                    <img src="images/globe-image.png">  Example Ad
+                     </td>
+                    <td class="table-cell ">Aug 1, 2023</td>
+                    <td class="table-cell ">$200.00</td>
+                    <td class="table-cell status">Active</td>
+                    <td class="table-cell ">
+                      <button type="button" class="btn edit-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="PencilLine">
+                          <g id="PencilLine_2">
+                          <path id="Vector" d="M9 20.25H4.5C4.30109 20.25 4.11032 20.171 3.96967 20.0303C3.82902 19.8897 3.75 19.6989 3.75 19.5V15.3107C3.75 15.2122 3.7694 15.1147 3.80709 15.0237C3.84478 14.9327 3.90003 14.85 3.96967 14.7803L15.2197 3.53034C15.3603 3.38969 15.5511 3.31067 15.75 3.31067C15.9489 3.31067 16.1397 3.38969 16.2803 3.53034L20.4697 7.71968C20.6103 7.86033 20.6893 8.0511 20.6893 8.25001C20.6893 8.44892 20.6103 8.63969 20.4697 8.78034L9 20.25Z" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="Vector_2" d="M12.75 6L18 11.25" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="Vector_3" d="M20.2501 20.25H9.00013L3.79785 15.0477" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          </g>
+                          </svg>
+                                                  Edit
+                      </button>
+                      <button type="button" class="btn settings-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="DotsThree">
+                          <g id="DotsThree_2">
+                          <path id="Vector" d="M12 13.375C12.7594 13.375 13.375 12.7594 13.375 12C13.375 11.2406 12.7594 10.625 12 10.625C11.2406 10.625 10.625 11.2406 10.625 12C10.625 12.7594 11.2406 13.375 12 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          <path id="Vector_2" d="M18 13.375C18.7594 13.375 19.375 12.7594 19.375 12C19.375 11.2406 18.7594 10.625 18 10.625C17.2406 10.625 16.625 11.2406 16.625 12C16.625 12.7594 17.2406 13.375 18 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          <path id="Vector_3" d="M6 13.375C6.75939 13.375 7.375 12.7594 7.375 12C7.375 11.2406 6.75939 10.625 6 10.625C5.24061 10.625 4.625 11.2406 4.625 12C4.625 12.7594 5.24061 13.375 6 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          </g>
+                          </g>
+                          </svg>
+                                            
+                      </button>
+                    </td>                
 
                 </tr>
                 <tr class="table-row" id="seller RO">
-                  <td class="table-cell align-right">1</td>
-                  <td class="table-cell align-left">Example Company</td>
-                  <td class="table-cell align-left">Example Type</td>
-                  <td class="table-cell align-left">Example Country</td>
-                  <td class="table-cell align-right">19.99</td>
-                  <td class="table-cell align-left">In Stock</td>
-                  <td class="table-cell align-left">2023-10-26</td>
-                  <td class="table-cell align-left">2023-10-26</td>
-                  <td class="table-cell align-left"><a href="sellers.html"><button>CLICK</button></a></td>
+                  <td class="table-cell "> 
+                    <img src="images/globe-image.png">  Example Ad
+                     </td>
+                    <td class="table-cell ">Aug 1, 2023</td>
+                    <td class="table-cell ">$200.00</td>
+                    <td class="table-cell status">Expired</td>
+                    <td class="table-cell ">
+                      <button type="button" class="btn edit-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="PencilLine">
+                          <g id="PencilLine_2">
+                          <path id="Vector" d="M9 20.25H4.5C4.30109 20.25 4.11032 20.171 3.96967 20.0303C3.82902 19.8897 3.75 19.6989 3.75 19.5V15.3107C3.75 15.2122 3.7694 15.1147 3.80709 15.0237C3.84478 14.9327 3.90003 14.85 3.96967 14.7803L15.2197 3.53034C15.3603 3.38969 15.5511 3.31067 15.75 3.31067C15.9489 3.31067 16.1397 3.38969 16.2803 3.53034L20.4697 7.71968C20.6103 7.86033 20.6893 8.0511 20.6893 8.25001C20.6893 8.44892 20.6103 8.63969 20.4697 8.78034L9 20.25Z" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="Vector_2" d="M12.75 6L18 11.25" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="Vector_3" d="M20.2501 20.25H9.00013L3.79785 15.0477" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          </g>
+                          </svg>
+                                                  Edit
+                      </button>
+                      <button type="button" class="btn settings-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="DotsThree">
+                          <g id="DotsThree_2">
+                          <path id="Vector" d="M12 13.375C12.7594 13.375 13.375 12.7594 13.375 12C13.375 11.2406 12.7594 10.625 12 10.625C11.2406 10.625 10.625 11.2406 10.625 12C10.625 12.7594 11.2406 13.375 12 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          <path id="Vector_2" d="M18 13.375C18.7594 13.375 19.375 12.7594 19.375 12C19.375 11.2406 18.7594 10.625 18 10.625C17.2406 10.625 16.625 11.2406 16.625 12C16.625 12.7594 17.2406 13.375 18 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          <path id="Vector_3" d="M6 13.375C6.75939 13.375 7.375 12.7594 7.375 12C7.375 11.2406 6.75939 10.625 6 10.625C5.24061 10.625 4.625 11.2406 4.625 12C4.625 12.7594 5.24061 13.375 6 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          </g>
+                          </g>
+                          </svg>
+                                            
+                      </button>
+                    </td>                
+
 
                 </tr>
                 <tr class="table-row" id="seller IT">
-                  <td class="table-cell align-right">1</td>
-                  <td class="table-cell align-left">Example Company</td>
-                  <td class="table-cell align-left">Example Type</td>
-                  <td class="table-cell align-left">Example Country</td>
-                  <td class="table-cell align-right">19.99</td>
-                  <td class="table-cell align-left">In Stock</td>
-                  <td class="table-cell align-left">2023-10-26</td>
-                  <td class="table-cell align-left">2023-10-26</td>
-                  <td class="table-cell align-left"><a href="sellers.html"><button>CLICK</button></a></td>
+                  <td class="table-cell "> 
+                    <img src="images/globe-image.png">  Example Ad
+                     </td>
+                    <td class="table-cell ">Aug 1, 2023</td>
+                    <td class="table-cell ">$200.00</td>
+                    <td class="table-cell status">Expired</td>
+                    <td class="table-cell ">
+                      <button type="button" class="btn edit-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="PencilLine">
+                          <g id="PencilLine_2">
+                          <path id="Vector" d="M9 20.25H4.5C4.30109 20.25 4.11032 20.171 3.96967 20.0303C3.82902 19.8897 3.75 19.6989 3.75 19.5V15.3107C3.75 15.2122 3.7694 15.1147 3.80709 15.0237C3.84478 14.9327 3.90003 14.85 3.96967 14.7803L15.2197 3.53034C15.3603 3.38969 15.5511 3.31067 15.75 3.31067C15.9489 3.31067 16.1397 3.38969 16.2803 3.53034L20.4697 7.71968C20.6103 7.86033 20.6893 8.0511 20.6893 8.25001C20.6893 8.44892 20.6103 8.63969 20.4697 8.78034L9 20.25Z" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="Vector_2" d="M12.75 6L18 11.25" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="Vector_3" d="M20.2501 20.25H9.00013L3.79785 15.0477" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          </g>
+                          </svg>
+                                                  Edit
+                      </button>
+                      <button type="button" class="btn settings-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="DotsThree">
+                          <g id="DotsThree_2">
+                          <path id="Vector" d="M12 13.375C12.7594 13.375 13.375 12.7594 13.375 12C13.375 11.2406 12.7594 10.625 12 10.625C11.2406 10.625 10.625 11.2406 10.625 12C10.625 12.7594 11.2406 13.375 12 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          <path id="Vector_2" d="M18 13.375C18.7594 13.375 19.375 12.7594 19.375 12C19.375 11.2406 18.7594 10.625 18 10.625C17.2406 10.625 16.625 11.2406 16.625 12C16.625 12.7594 17.2406 13.375 18 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          <path id="Vector_3" d="M6 13.375C6.75939 13.375 7.375 12.7594 7.375 12C7.375 11.2406 6.75939 10.625 6 10.625C5.24061 10.625 4.625 11.2406 4.625 12C4.625 12.7594 5.24061 13.375 6 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          </g>
+                          </g>
+                          </svg>
+                                            
+                      </button>
+                    </td>                
 
                 </tr>
                 <tr class="table-row" id="seller A">
-                  <td class="table-cell align-right">1</td>
-                  <td class="table-cell align-left">Example Company</td>
-                  <td class="table-cell align-left">Example Type</td>
-                  <td class="table-cell align-left">Example Country</td>
-                  <td class="table-cell align-right">19.99</td>
-                  <td class="table-cell align-left">In Stock</td>
-                  <td class="table-cell align-left">2023-10-26</td>
-                  <td class="table-cell align-left">2023-10-26</td>
-                  <td class="table-cell align-left"><a href="sellers.html"><button>CLICK</button></a></td>
+                  <td class="table-cell "> 
+                    <img src="images/globe-image.png">  Example Ad
+                     </td>
+                    <td class="table-cell ">Aug 1, 2023</td>
+                    <td class="table-cell ">$200.00</td>
+                    <td class="table-cell status">Active</td>
+                    <td class="table-cell ">
+                      <button type="button" class="btn edit-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="PencilLine">
+                          <g id="PencilLine_2">
+                          <path id="Vector" d="M9 20.25H4.5C4.30109 20.25 4.11032 20.171 3.96967 20.0303C3.82902 19.8897 3.75 19.6989 3.75 19.5V15.3107C3.75 15.2122 3.7694 15.1147 3.80709 15.0237C3.84478 14.9327 3.90003 14.85 3.96967 14.7803L15.2197 3.53034C15.3603 3.38969 15.5511 3.31067 15.75 3.31067C15.9489 3.31067 16.1397 3.38969 16.2803 3.53034L20.4697 7.71968C20.6103 7.86033 20.6893 8.0511 20.6893 8.25001C20.6893 8.44892 20.6103 8.63969 20.4697 8.78034L9 20.25Z" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="Vector_2" d="M12.75 6L18 11.25" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          <path id="Vector_3" d="M20.2501 20.25H9.00013L3.79785 15.0477" stroke="black" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+                          </g>
+                          </g>
+                          </svg>
+                                                  Edit
+                      </button>
+                      <button type="button" class="btn settings-btn">
+                        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <g id="DotsThree">
+                          <g id="DotsThree_2">
+                          <path id="Vector" d="M12 13.375C12.7594 13.375 13.375 12.7594 13.375 12C13.375 11.2406 12.7594 10.625 12 10.625C11.2406 10.625 10.625 11.2406 10.625 12C10.625 12.7594 11.2406 13.375 12 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          <path id="Vector_2" d="M18 13.375C18.7594 13.375 19.375 12.7594 19.375 12C19.375 11.2406 18.7594 10.625 18 10.625C17.2406 10.625 16.625 11.2406 16.625 12C16.625 12.7594 17.2406 13.375 18 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          <path id="Vector_3" d="M6 13.375C6.75939 13.375 7.375 12.7594 7.375 12C7.375 11.2406 6.75939 10.625 6 10.625C5.24061 10.625 4.625 11.2406 4.625 12C4.625 12.7594 5.24061 13.375 6 13.375Z" fill="black" stroke="black" stroke-width="0.5"/>
+                          </g>
+                          </g>
+                          </svg>
+                                            
+                      </button>
+                    </td>                
                 </tr>
 
     
@@ -255,7 +418,7 @@
         <!-- /.table-app -->
       </div>
 
-      <script src="ProductsPage.js"></script>
+      <script src="ProductsSeller.js"></script>
     
 </body>
 </html>
